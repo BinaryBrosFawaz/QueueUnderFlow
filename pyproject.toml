@@ -6,8 +6,8 @@ authors = ["Basel Ismail Fawaz Hadi Ismail Fawaz <134176929+bfawwaz@users.norepl
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
-Django = "4.2.7"
+python = "^3.9"
+Django = "^4.0.1"
 
 [build-system]
 requires = ["poetry-core"]
