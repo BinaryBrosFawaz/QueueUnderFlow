@@ -28,3 +28,14 @@ jobs:
     - name: Run Tests
       run: |
         python QUflow/manage.py test
+        
+    - name: Install Linting and Formatting Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install ruff black
+        
+    - name: Run ruff
+      run: ruff .
+
+    - name: Check formatting with black
+      run: black . --check
