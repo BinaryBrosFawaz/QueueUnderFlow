@@ -1,5 +1,5 @@
 
-name: Django CI
+name: CODE QUALITY
 
 on:
   push:
